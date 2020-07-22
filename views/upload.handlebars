@@ -1,0 +1,70 @@
+<div class="container newpaintingform">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Title" id="arttitle" type="text" class="validate" required>
+          <label for="paintingName">Art Title*</label>
+          <span class="helper-text" data-error="You must enter a title." data-success=""></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="description" class="materialize-textarea validate" Description></textarea>
+          <label for="description">Description*</label>
+          <span class="helper-text" data-error="You must enter a description." data-success=""></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input type="text" id="tags">
+          <label for="tags">Tags:</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea disabled id="selectedIngredients" class="materialize-textarea"> </textarea>
+          <label for="selectedIngredients">Selected Ingredients*</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="artImage" type="url" class="validate">
+          <label for="artImage">Image Link</label>
+          <span class="helper-text" data-error="Invalid URL" data-success="Valid URL"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <label for="artMedium">Medium*</label>
+          <select id="artMeduim" required>
+            <option value="" disabled selected>Select a category</option>
+            <option value="1">Drawing(Pencil)</option>
+            <option value="2">Drawing(Colored Pencil)</option>
+            <option value="3">Drawing(Ink)</option>
+            <option value="4">Drawing(Markers)</option>
+            <option value="5">Drawing(Pastels)</option>
+            <option value="6">Drawing(Chalk)</option>
+            <option value="7">Painting(Watercolor)</option>
+            <option value="8">Painting(Acrylic)</option>
+            <option value="9">Painting(Oil)</option>
+            <option value="10">Painting(Tempera)</option>
+            <option value="11">Photography(Film)</option>
+            <option value="12">Photography(Digital)</option>
+            <option value="13">Sculpture</option>
+            <option value="14">Other</option>
+          </select>
+          <span class="helper-text" data-error="You must select a medium." data-success=""></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="currentLocation" type="text" class="validate" value="Unknown">
+          <label for="currentLocation">Current Location</label>
+        </div>
+      </div>
+      <button class="btn waves-effect waves-light" id="recipeSubmit" type="submit" name="action">Submit</button>
+    </form>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/uploadPainting.js"></script>

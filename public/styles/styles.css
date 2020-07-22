@@ -1,0 +1,151 @@
+.list-group-item {
+  line-height: 2.5;
+}
+.sidebar{
+  height:130vh;
+}
+.card{
+  padding-top:0px;
+  margin-top:0px;
+  margin-bottom:-10px;
+}
+
+.fourOhFour {
+  max-width: 100%;
+}
+
+#ingredientAdd, #recipeSubmit {
+  background-color: rebeccapurple;
+}
+
+.newrecipeform{
+  padding-top:100px;
+}
+
+#recipeHolder {
+  width: 155%;
+  position: inherit;
+}
+
+#recipe {
+  width: 100%;
+  text-align: center;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  background-color: #7e57c2;
+  font-family: 'Roboto', sans-serif;
+}
+
+#homeBtn {
+  margin-top: 10%;
+  background-color: #7e57c2;
+  margin-left: 60%;
+  position: inherit;
+}
+
+#clear {
+  margin: 2%;
+  background-color: #7e57c2;
+  float: left;
+  position: inherit;
+}
+
+#save {
+  margin: 2%;
+  background-color: #7e57c2;
+  position: inherit;
+}
+
+#clrRec {
+  margin: 2%;
+  background-color: #7e57c2; 
+  float: right;
+  position: inherit;
+}
+
+#recHead {
+  font-family:'Abril Fatface', cursive; 
+  color: #f2f2f2;
+  text-shadow: 2px 2px black;
+}
+
+#topBtn {
+  margin-top: 2%;
+}
+
+#myList {
+  margin-bottom: 2%;
+  margin-left: 1%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}
+
+.recCard {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#newDiv {
+  background-color: red;
+  content: '.';
+  visibility: hidden;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color:rebeccapurple;
+  height:85px;
+  font-size: 15px;
+  padding-top:20px;
+  z-index: 99;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 20px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.headerimage{
+  position: relative;
+  text-align: center;
+  color: white;
+  width:100%;
+}
+.pagetitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-shadow: 2px 2px black;
+}
+header{
+  position: relative;
+}
+.pagetitle ,.pageinital{
+  font-family: 'Abril Fatface', cursive;
+}
